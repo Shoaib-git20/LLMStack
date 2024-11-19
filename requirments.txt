@@ -1,3 +1,7 @@
 streamlit
 pandas
 numpy
+transformers
+datasets
+os
+json5
