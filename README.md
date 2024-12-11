@@ -1,6 +1,4 @@
-# Wisdom of the Crowd of LMMs: How Well Does an Ensemble of LMMs Perform in Financial Decision Making?
-
-## How to Run the Application Locally
+# LMMsStack: Memory Efficient Inference and Dynamic Contrastive Reasoning in Financial Decision Making?
 
 ### Setting Up the Virtual Environment
 
@@ -30,11 +28,18 @@
     pip install -r requirements.txt
     ```
 
-### Running the Application
+### code files structure
 
-4. **Start the application**:
+4. **data**:
     ```sh
-    streamlit run app.py
+    |-data
+     --img_data
+        --test
+    
+    |-chartqa.ipynb (vision model)
+    |-headlines.ipynb (price predtiction model)
+    |-math.ipynb (math model)
+    |-normal.ipynb (general model that uses Qwen 7B for all queries)
     ```
 
 Now your application should be running locally! If you encounter any issues, make sure all dependencies are correctly installed and the virtual environment is activated.
