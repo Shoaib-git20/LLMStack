@@ -33,8 +33,12 @@
 4. **data**:
     ```sh
     |-data
-     --img_data
-        --test
+     --prep.ipynb (for loading and preparing datasets)
+     --chartqa
+     --fingpt_headlines_cls
+     --math
+     --merged_data
+        --test_png
     
     |-chartqa.ipynb (vision model)
     |-headlines.ipynb (price predtiction model)
@@ -42,4 +46,4 @@
     |-normal.ipynb (general model that uses Qwen 7B for all queries)
     ```
 
-Now your application should be running locally! If you encounter any issues, make sure all dependencies are correctly installed and the virtual environment is activated.
+Now to run above scripts its recommended to have approximately 32GB GPU RAM.
