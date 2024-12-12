@@ -33,13 +33,13 @@
 4. **data**:
     ```sh
     |-data
-     --prep.ipynb (for loading and preparing datasets)
-     --chartqa
-     --fingpt_headlines_cls
-     --math
-     --merged_data
-        --test_png
-    
+      --prep.ipynb (for loading and preparing datasets, run this script to prepare dataset as shown below)
+      --chartqa
+      --fingpt_headlines_cls
+      --math
+      --merged_data
+         --test_png
+         
     |-chartqa.ipynb (vision model)
     |-headlines.ipynb (price predtiction model)
     |-math.ipynb (math model)
